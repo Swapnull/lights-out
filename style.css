@@ -1,0 +1,27 @@
+body{
+  margin-top:5%;
+  text-align:center;
+}
+.container{
+  margin-left:40%;
+}
+
+.grid{
+  width:260px;
+}
+
+.grid-item{
+  height:50px;
+  width: 50px;
+  border: 1px solid black;
+  float:left;
+  background:grey;
+}
+
+.lights-on{
+  background:white;
+}
+
+#new-game{
+  margin-bottom:10px;
+}

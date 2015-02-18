@@ -44,7 +44,7 @@ function randomiseGrid(){
 
 }
 
-$(document).on('click', '.grid-item', function(){
+$(document).on('click touchstart', '.grid-item', function(){
   var id = $(this).attr('id')
   id = id.split('-')
   var x = parseInt(id[0])
@@ -68,7 +68,7 @@ $(document).on('click', '.grid-item', function(){
 
 });
 
-$(document).on('click', '#new-game', function(){
+$(document).on('click touchstart', '#new-game', function(){
   grid.length = 0
   $('.grid').empty()
   drawGrid()
